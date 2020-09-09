@@ -16,7 +16,10 @@ make -j4
 
 ### Use
 
+make a folder named imgs and add all images taken in different orientation with showing full chessboard 
+
 run ./calibration inside build directory 
+
 
 
 
