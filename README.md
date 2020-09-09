@@ -8,20 +8,16 @@
 
  C++
 
-### Use
-
-Compile all the files using the following commands.
-
+### Compile
 
 mkdir build && cd build
 cmake ..
 make -j4
 
-run ./calib inside build directory 
+### Use
 
-### Intrnsic calibration of camera
+run ./calibration inside build directory 
 
-./calib
 
 
 
