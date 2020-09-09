@@ -4,11 +4,11 @@
 
 int main()
 {
-  std::string file = "/home/tdobaga/Documents/calibration_mono/video.mp4";
-  cv::VideoCapture cap(file); // open the default camera
-  if (!cap.isOpened())        // check if we succeeded
+  std::string file = "video.mp4";
+  cv::VideoCapture cap(file); 
+  if (!cap.isOpened())       
     std::cout << "camera can't opened" << std::endl;
-  //  return -1;
+    return -1;
   else
   {
     std::cout << "camera opened" << std::endl;

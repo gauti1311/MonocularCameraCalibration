@@ -1,20 +1,23 @@
-## OpenCV C++ Monocular Camera Calibration
+## Monocular Camera Calibration 
 
 ### Dependencies
 
-- OpenCV
+ OpenCV
 
-### Compilation
+### Code language
+
+ C++
+
+### Use
 
 Compile all the files using the following commands.
 
-```bash
+
 mkdir build && cd build
 cmake ..
-make
-```
-Make sure your are in the `build` folder to run the executables.
+make -j4
 
+run ./calib inside build directory 
 
 ### Intrnsic calibration of camera
 
